@@ -1,4 +1,5 @@
 .questions {
+  padding-bottom: 175px;
 &__text {
   text-align: center;
   padding: 176px 0 68px 0;
@@ -17,9 +18,6 @@
     padding-top: 20px;
   }
 }
-  &__options {
-    padding-bottom: 175px;
-  }
 &__option {
   gap: 24px;
   padding: 17px 0;

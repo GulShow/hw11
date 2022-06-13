@@ -33,6 +33,7 @@
   $media-blog3: 570px;
   @media (max-width: $media-blog3) {
     &__plan {
+      justify-content: center;
       &-block {
         margin: 0;
         max-width: 320px;
@@ -49,6 +50,7 @@
         }
         &-buttons {
           display: block;
+          margin-top: 10px;
 
           &-1 {
             width: 211px;

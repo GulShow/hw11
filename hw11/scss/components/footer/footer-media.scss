@@ -24,7 +24,10 @@
       min-height: $footer_height;
       max-height: $footer_height;
     }
-
+&-p {
+  padding-left: 0;
+  text-align: center;
+}
 
     &__social-cta {
       display: none;

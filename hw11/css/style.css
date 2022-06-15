@@ -51,7 +51,6 @@ h2,
 h3,
 h4,
 p,
-ul[class],
 ol[class],
 li,
 figure,
@@ -272,7 +271,7 @@ label {
 
 .banner {
   background-image: url("../assets/hero image.svg");
-  height: 570px;
+  height: 590px;
   border-bottom: 1px solid #D8E3FE; }
   .banner__text {
     padding-top: 92px;
@@ -315,20 +314,18 @@ label {
         right: 23px;
         position: absolute; }
   .banner__options {
-    position: absolute;
-    left: 675px;
-    top: 614px;
-    gap: 20px; }
+    justify-content: center;
+    gap: 12px;
+    margin-top: 250px;
+    padding-left: 0; }
     .banner__options-active {
       display: inline-block;
-      position: absolute;
       width: 8px;
       height: 8px;
       background: #5283FF;
       border-radius: 50%; }
     .banner__options-default {
       display: inline-block;
-      position: absolute;
       width: 8px;
       height: 8px;
       background: #D1D6E3;
@@ -341,12 +338,11 @@ label {
       position: initial; }
       .banner__text-play a i {
         position: initial; }
-  .banner__options {
-    position: initial;
-    padding-left: 250px; }
   .banner .bi-play-fill::before {
     content: "\f4f4";
-    padding-top: 18px; } }
+    padding-top: 18px; }
+  .banner__options {
+    margin-top: 0; } }
 @media (max-width: 582px) {
   .banner__text-3 {
     max-width: 280px; }
@@ -717,7 +713,8 @@ label {
       width: 100%;
       text-align: center; }
       .blog__plan-text-p {
-        width: 100%; }
+        width: 100%;
+        padding: 0 20px; }
       .blog__plan-text-buttons {
         display: block;
         margin-top: 10px; }

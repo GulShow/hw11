@@ -58,14 +58,13 @@
   }
 
   &__options {
-    position: absolute;
-    left: 675px;
-    top: 614px;
-    gap: 20px;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 250px;
+    padding-left: 0;
 
     &-active {
       display: inline-block;
-      position: absolute;
       width: 8px;
       height: 8px;
       background: #5283FF;
@@ -74,7 +73,6 @@
 
     &-default {
       display: inline-block;
-      position: absolute;
       width: 8px;
       height: 8px;
       background: #D1D6E3;
